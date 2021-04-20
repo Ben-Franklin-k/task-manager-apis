@@ -11,6 +11,9 @@
   "jest": {
     "testEnvironment": "node"
   },
+  "engines" : { 
+    "node" : ">14.15.4" 
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
