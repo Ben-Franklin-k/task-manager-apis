@@ -1,7 +1,7 @@
 const request = require('supertest');
 const app = require('../src/app');
 
-const { connectDb,userOne,userOneId } = require('./db');
+const { connectDb,userOne,userOneId } = require('./db.test');
 
 beforeEach(connectDb);
 
